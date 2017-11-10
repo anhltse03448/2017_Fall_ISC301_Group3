@@ -25,9 +25,8 @@ https://itshare.online/knowledge/web-server/cai-dat-ssl-cho-xampp-tren-windows/
 5. Trong table prefix_options, đổi giá trị của cột option_value tương ứng với các cột option_name [site_url] và option_name [home]
     thành link của thư mục gốc home (Ví dụ https://localhost:8000)
 
-5. Vào file winestore/wp-config.php
-
-6. Sửa các thông tin về localhost trong wp-config.php Các thông tin cần thay đổi: <br>
+6. Vào file winestore/wp-config.php và <br/>
+    Sửa các thông tin về localhost trong wp-config.php Các thông tin cần thay đổi: <br>
     a.	DB_NAME: wine <br>
     b.	DB_USER: user_localhost_mysql <br>
     c.	DB_PASSWORD: password_localhost_mysql <br>
