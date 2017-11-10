@@ -1,4 +1,5 @@
 # 2017_Fall_ISC301_Group3
+
 Link website: https://winestore.ml/
 <br/>
 <br/>
@@ -13,18 +14,23 @@ Hướng dẫn cài đặt: 7 bước
 
 1. Cài localhost
 
-2. Giải nén file winestoreml.zip
+2. Cài chứng chỉ ssl trên localhost (xampp có hỗ trợ localhost chứng chỉ ssl)
 
-3. import file winestoreml.sql vào trong mysql
+https://itshare.online/knowledge/web-server/cai-dat-ssl-cho-xampp-tren-windows/
 
-4. Vào file winestore/wp-config.php
+3. Giải nén file winestoreml.zip
 
-5. Sửa các thông tin về localhost trong wp-config.php Các thông tin cần thay đổi: <br>
+4. import file winestoreml.sql vào trong mysql
+
+5. Trong table prefix_options, đổi giá trị của cột option_value tương ứng với các cột option_name [site_url] và option_name [home]
+    thành link của thư mục gốc home (Ví dụ http://localhost:8000)
+
+5. Vào file winestore/wp-config.php
+
+6. Sửa các thông tin về localhost trong wp-config.php Các thông tin cần thay đổi: <br>
     a.	DB_NAME: wine <br>
     b.	DB_USER: user_localhost_mysql <br>
     c.	DB_PASSWORD: password_localhost_mysql <br>
     d.	DB_HOST: localhost <br>
     
-6.Vào console và chạy lênh php -S localhost:8000
-
-7.Vào browser và vào link http://localhost:8000
+7. Vào đường link thư mục và chạy
