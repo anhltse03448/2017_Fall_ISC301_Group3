@@ -1,6 +1,13 @@
 # 2017_Fall_ISC301_Group3
 Link website: https://winestore.ml/
+<br/>
+<br/>
+<h3>Account for Paypal testing </h3>
 
+<b>Username</b>: test@winestore.com
+<br/>
+<b>Password </b>: 1234qwer
+<br/>
 
 Hướng dẫn cài đặt: 7 bước
 
