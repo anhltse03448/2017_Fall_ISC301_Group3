@@ -23,7 +23,7 @@ https://itshare.online/knowledge/web-server/cai-dat-ssl-cho-xampp-tren-windows/
 4. import file winestoreml.sql vào trong mysql
 
 5. Trong table prefix_options, đổi giá trị của cột option_value tương ứng với các cột option_name [site_url] và option_name [home]
-    thành link của thư mục gốc home (Ví dụ http://localhost:8000)
+    thành link của thư mục gốc home (Ví dụ https://localhost:8000)
 
 5. Vào file winestore/wp-config.php
 
